@@ -2,6 +2,21 @@
 # yarn lockfile v1
 
 
+"@types/bluebird@*":
+  version "3.5.18"
+  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.18.tgz#6a60435d4663e290f3709898a4f75014f279c4d6"
+
+"@types/karma@^1.7.2":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@types/karma/-/karma-1.7.2.tgz#203525751b91c80564656f3bfcee31cd5159cdd9"
+  dependencies:
+    "@types/bluebird" "*"
+    "@types/node" "*"
+
+"@types/node@*":
+  version "8.0.53"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.53.tgz#396b35af826fa66aad472c8cb7b8d5e277f4e6d8"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"

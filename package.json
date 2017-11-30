@@ -6,6 +6,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/karma": "^1.7.2",
     "karma": "^1.7.1",
     "karma-cli": "^1.0.1",
     "lint-staged": "^5.0.0",
