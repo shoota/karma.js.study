@@ -9,6 +9,7 @@ module.exports = (config) => {
       'app/*.ts',
       'test/*.ts'
     ],
+    browsers: ['PhantomJS'],
     logLevel: config.LOG_DEBUG
   })
 }
