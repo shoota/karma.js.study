@@ -1,7 +1,13 @@
 module.exports = (config) => {
   config.set({
+    frameworks: ["mocha", "karma-typescript"],
+    preprocessors: {
+      "**/*.ts": ["karma-typescript"],
+    },
+    reporters: ["progress", "karma-typescript"],
     files: [
-      'app/app.js'
+      'app/*.ts',
+      'test/*.ts'
     ],
     logLevel: config.LOG_DEBUG
   })
