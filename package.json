@@ -31,6 +31,6 @@
   },
   "scripts": {
     "precommit": "lint-staged",
-    "test": "karma start"
+    "test": "karma start --single-run"
   }
 }
