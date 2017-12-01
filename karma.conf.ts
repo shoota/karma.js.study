@@ -4,7 +4,7 @@ module.exports = (config) => {
     preprocessors: {
       "**/*.ts": ["karma-typescript"],
     },
-    reporters: ["progress", "karma-typescript"],
+    reporters: ["mocha", "coverage", "karma-typescript"],
     files: [
       'app/*.ts',
       'test/*.ts'
